@@ -1,0 +1,274 @@
+﻿ #time{
+  font-size:15vw;
+  font-family:prata;
+  color:#8d021f;
+  text-shadow:2px 2px 20px black;
+  margin-top:2px;
+  margin-bottom:10px;
+  }
+ .but1{
+ cursor:pointer;
+ background-color:transparent;
+ color:white;
+ font-family:prata;
+ border:1px solid #8d021f;
+  padding-left:10px ;
+  padding-right:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+ }
+.but1:hover{
+ box-shadow:2px 2px 20px 1px pink;
+}
+a{
+color:white;
+text-decoration:none;}
+.but1:active{
+background-color:#8d021f;
+color:white;}
+.but1:focus{
+outline:none;}
+ #day{
+  font-size:18px;
+  color:white;
+  font-family:prata;
+ }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("vc22.jpg");
+}
+
+footer {
+  background-image: url("vc22.jpg");
+}
+
+body {
+  background-image:url("vc22.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+.table2 {
+  background-color: white;
+  border-radius: 5px;
+}
+
+a11 {
+  font-size: 50px;
+  word-spacing: 3px;
+  font-family: exo;
+  color: #8d021f;
+  animation: colorchange 2s infinite;
+}
+@keyframes colorchange {
+  0% {
+    color: #8d021f;
+     }
+  50% {
+    color: white;
+  }
+
+}
+a12 {
+  font-size: 20px;
+  word-spacing: 3px;
+  font-family: "callibri", "bell mt";
+  color: white;
+}
+#input1{
+  font-size: 20px;
+  word-spacing: 3px;
+  font-family: "callibri", "bell mt";
+  color: black;
+}
+a13 {
+  font-size: 15px;
+  font-family: "segoe mdl2 assets";
+  color: white;
+}
+
+#text2{
+  font-size:20px;
+  color:white;
+  text-shadow:2px 2px 5px black;
+}
+
+#img1 {
+  border-radius: 5px;
+  border: 2px solid white;
+  align:center;
+  margin-top: 30px;
+  width: 200px;
+}
+
+#text1 {
+  font-family:prata;
+  padding-left:5%;
+  color: white;
+  text-shadow:2px 2px 20px white;
+  padding-right: 60px;
+  
+}
+
+.vc1 {
+  text-shadow: 2px 2px 5px black;
+  font-size: 50px;
+  color: white;
+  font-family: magneto;
+}
+.text8{
+  font-size: 12px;
+  font-family: arial;
+  padding: 10px 35px;
+  color: white;
+  display: inline-block;
+  margin-left:auto;
+  background-color: Transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.text8:hover {
+  box-shadow: 2px 3px 5px grey;
+  font-size: 12px;
+  font-family: arial;
+  padding: 10px 35px;
+  color: white;
+  display: inline-block;
+  margin-left:auto;
+  background-color: green;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.vc5 {
+  font-family: arial;
+  color: white;
+}
+table{
+  margin-top:10px;
+  box-shadow:2px 2px 20px 1px white;
+}
+
+tr {
+  color: white;
+  font-family: exo;
+  text-shadow: 2px 3px 8px black;
+}
+
+
+
+.image:hover {
+  background-color: #8d021f;
+  border-radius: 5px;
+}
+#text1:hover{
+  background-color:transparent;
+  box-shadow:20px 2px 20px 2px white;;
+  border-radius:10px;
+  text-shadow:2px 20px 20px white;
+  color:white;
+  transition:0.2s;
+}
+.mySlides {
+  display: none;
+  border:1px solid white;
+  box-shadow:2px 10px 20px #8d021f;
+}
+.dat1{color:white;font-family:prata;font-size:18px;margin-top:-10px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .text8{
+    font-size: 12px;
+    font-family: exo;
+    padding: 10px 35px;
+    color: white;
+    display: inline-block;
+    margin-left:auto;
+    background-color: Transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .text8:hover {
+    transition:1s;
+    box-shadow: 2px 3px 5px grey;
+    font-size: 12px;
+    font-family: exo;
+    padding: 10px 35px;
+    color: white;
+    display: inline-block;
+    margin-left:auto;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-transform: lowercase;
+    font-weight: bold;
+  }
+
+
+
+
+  #img1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  #text1 {
+    font-family:exo;
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .table1 {
+    background-image: url("vc3.jpg");
+    border-radius: 5px;
+  }
+
+  .table1:hover {
+    background-image: url("vc4.jpg");
+  }
+
+  .table2:hover {
+    background-image: url("vc4.jpg");
+  }
+
+  .image:hover {
+    background-color: #87ceeb;
+    border-radius: 5px;
+  }
+  #text1:hover{
+    background-color:#87ceeb;
+  }
+
+  a11 {
+    font-size: 50px;
+    word-spacing: 3px;
+    font-family: "callibri", "bell mt";
+    color:black;
+  }
+  table{
+    margin-top:300px;
+  }
+}
